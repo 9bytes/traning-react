@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+html, 
+        body {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            height: 100%;
+        }
+
+
+        .app-root {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-menu-content {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .app-header {
+            height: 50px;
+            background-color: green;
+        }
+
+        .left-nav {
+            width: 250px;
+            background-color: gray;
+        }
+
+        .content-area {
+            background-color: lightblue;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-root">
+        <div class="app-header"> Header </div>
+        <div class="app-menu-content">
+            <div class="left-nav">
+                Left Nav
+            </div>
+            <div class="content-area">
+                Content    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

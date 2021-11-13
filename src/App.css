@@ -1,0 +1,15 @@
+
+div {
+    height: 100%;
+}
+
+
+.app-root {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-menu-content {
+    display: flex;
+    flex-direction: row;
+}
