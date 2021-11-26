@@ -53,8 +53,8 @@ const myData = [
 ]
 
 const output = {
-  SS123: {id: "SS123", name="Mahesh", phone: "232323", address:{ city: "Hyderabad"  }},
-  SS124: {id: "SS124", name="DDDD", phone: "232323", address:{ city: "B"  }}
+  SS123: {id: "SS123", name:"Mahesh", phone: "232323", address:{ city: "Hyderabad"  }},
+  SS124: {id: "SS124", name:"DDDD", phone: "232323", address:{ city: "B"  }}
 }
 
 const newObj = myData.reduce((acc, user) => {
